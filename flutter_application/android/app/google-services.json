@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138611642208",
+    "project_id": "bobsponja-3af29",
+    "storage_bucket": "bobsponja-3af29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138611642208:android:6c4b1a61ff671eea27d805",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnmr0zAOfc1axg5v3lMsLUWITUQ-LARKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
