@@ -6,6 +6,59 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    final size = MediaQuery.of(context).size;
+    return Scaffold(
+        body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // email
+            Padding(
+              padding: EdgeInsets.symmetric(
+                horizontal: size.width * 0.1,
+                vertical: size.height * 0.05,
+              ),
+              child: TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: const InputDecoration(
+                  labelText: 'Email',
+                  labelStyle: TextStyle(
+                    color: Color(0xFFBEBCBC),
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                onChanged: (value) {},
+              ),
+            ),
+
+            // password
+            Padding(
+              padding: EdgeInsets.only(
+                  left: size.width * .1,
+                  right: size.width * 0.1,
+                  bottom: size.height * 0.05),
+              child: TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: const InputDecoration(
+                  labelText: 'Password',
+                  labelStyle: TextStyle(
+                    color: Color(0xFFBEBCBC),
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                onChanged: (value) {},
+              ),
+            ),
+            // button
+            ElevatedButton(
+              onPressed: () => {},
+              child: const Text(
+                'Iniciar sesion',
+              ),
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
