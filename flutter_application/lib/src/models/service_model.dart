@@ -8,6 +8,7 @@ class ServiceModel {
   String category;
   String providerId;
   String imageUrl;
+  GeoPoint location;
   Timestamp createdAt;
 
 
@@ -19,6 +20,7 @@ class ServiceModel {
     required this.category,
     required this.providerId,
     required this.imageUrl,
+    required this.location,
     required this.createdAt,
   });
 
@@ -31,6 +33,7 @@ class ServiceModel {
       'category': category,
       'providerId': providerId,
       'imageUrl': imageUrl,
+      'location': location,
       'createdAt': createdAt,
     };
   }
@@ -44,6 +47,7 @@ class ServiceModel {
       category: map['category'],
       providerId: map['providerId'],
       imageUrl: map['imageUrl'],
+      location: map['location'],
       createdAt: map['createdAt'],
     );
   }
