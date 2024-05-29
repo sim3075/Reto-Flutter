@@ -38,7 +38,7 @@ class _BottomNavigationBarExampleState
             label: 'Inicio',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
+            icon: Icon(Icons.delivery_dining),
             label: 'Servicios',
           ),
           BottomNavigationBarItem(
